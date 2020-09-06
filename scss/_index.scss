@@ -1,0 +1,32 @@
+
+.skills{
+    img{
+        width: 32px;
+        height: 32px;
+    }
+}
+.sidebar{
+    ul{
+        a{
+            li:hover{
+                border-bottom: black solid 3px;
+
+            }
+        }
+    }
+}
+html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.2rem;
+    }
+  }

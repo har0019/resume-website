@@ -1,0 +1,27 @@
+.header{
+    .header-inner{
+        h1{
+            a{
+                background-image: url(../image/harry.png) ;
+                height: 258px;
+                width: 258px;
+                display: block;
+                text-indent: 101%;
+                overflow: hidden;
+                white-space: nowrap;
+            } 
+        }
+        .harry{
+            font-size: 3rem;
+        }
+        .portfolio-btn{
+            a{
+                color: $dark;
+            }
+            a:hover{
+                background-color: $dark;
+                color: white;
+            }
+        }
+    }
+}
